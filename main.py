@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt  # For visualizing data (e.g., the grid as a hea
 import random  # For random number generation (e.g., agent movement and dirt placement)
 from tabulate import tabulate  # For creating formatted tables
 from environment import Environment
+from reflex_agent import ReflexAgent
+from model_based_agent import ModelBasedAgent
+from randomized_agent import RandomizedAgent
 
 
 def run_simulation(agent_class, grid_size, dirt_percentage):
